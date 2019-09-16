@@ -1,0 +1,25 @@
+﻿<Properties StartupConfiguration="{B7496EEF-0133-4ADA-9850-15495B57BDD9}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="CommerceBankWebsite/Startup.cs">
+    <Files>
+      <File FileName="CommerceBankWebsite/Startup.cs" Line="1" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="CommerceBankWebsite" expanded="True">
+            <Node name="CommerceBankWebsite" expanded="True">
+              <Node name="Startup.cs" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.CommerceBankWebsite PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
