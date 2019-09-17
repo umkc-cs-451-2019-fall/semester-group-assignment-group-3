@@ -8,10 +8,14 @@
         <State name="__root__">
           <Node name="CommerceBankWebsite" expanded="True">
             <Node name="CommerceBankWebsite" expanded="True">
+              <Node name="Controllers" expanded="True" />
               <Node name="Startup.cs" selected="True" />
             </Node>
           </Node>
         </State>
+      </Pad>
+      <Pad Id="MonoDevelop.Debugger.WatchPad">
+        <State />
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
