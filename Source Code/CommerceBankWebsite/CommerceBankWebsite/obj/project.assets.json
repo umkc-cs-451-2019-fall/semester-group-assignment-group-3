@@ -11799,30 +11799,46 @@
     ]
   },
   "packageFolders": {
+<<<<<<< HEAD
     "C:\\Users\\thefr\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+=======
+    "/Users/daniel/.nuget/packages/": {},
+    "/usr/local/share/dotnet/sdk/NuGetFallbackFolder": {}
+>>>>>>> dc93d78816a02c5261031ec8f98b3926c3c0daa6
   },
   "project": {
     "version": "1.0.0",
     "restore": {
+<<<<<<< HEAD
       "projectUniqueName": "C:\\Users\\thefr\\Documents\\GitHub\\semester-group-assignment-group-3\\Source Code\\CommerceBankWebsite\\CommerceBankWebsite\\CommerceBankWebsite.csproj",
       "projectName": "CommerceBankWebsite",
       "projectPath": "C:\\Users\\thefr\\Documents\\GitHub\\semester-group-assignment-group-3\\Source Code\\CommerceBankWebsite\\CommerceBankWebsite\\CommerceBankWebsite.csproj",
       "packagesPath": "C:\\Users\\thefr\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\thefr\\Documents\\GitHub\\semester-group-assignment-group-3\\Source Code\\CommerceBankWebsite\\CommerceBankWebsite\\obj\\",
+=======
+      "projectUniqueName": "/Users/daniel/Documents/GitHub/semester-group-assignment-group-3/Source Code/CommerceBankWebsite/CommerceBankWebsite/CommerceBankWebsite.csproj",
+      "projectName": "CommerceBankWebsite",
+      "projectPath": "/Users/daniel/Documents/GitHub/semester-group-assignment-group-3/Source Code/CommerceBankWebsite/CommerceBankWebsite/CommerceBankWebsite.csproj",
+      "packagesPath": "/Users/daniel/.nuget/packages/",
+      "outputPath": "/Users/daniel/Documents/GitHub/semester-group-assignment-group-3/Source Code/CommerceBankWebsite/CommerceBankWebsite/obj/",
+>>>>>>> dc93d78816a02c5261031ec8f98b3926c3c0daa6
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
       ],
       "configFilePaths": [
+<<<<<<< HEAD
         "C:\\Users\\thefr\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+=======
+        "/Users/daniel/.config/NuGet/NuGet.Config"
+>>>>>>> dc93d78816a02c5261031ec8f98b3926c3c0daa6
       ],
       "originalTargetFrameworks": [
         "netcoreapp2.1"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
