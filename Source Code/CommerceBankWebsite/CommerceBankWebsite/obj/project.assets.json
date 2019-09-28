@@ -7194,7 +7194,6 @@
       "path": "runtime.native.system.data.sqlclient.sni/4.4.0",
       "files": [
         ".nupkg.metadata",
-        ".signature.p7s",
         "LICENSE.TXT",
         "THIRD-PARTY-NOTICES.TXT",
         "runtime.native.system.data.sqlclient.sni.4.4.0.nupkg.sha512",
@@ -7235,6 +7234,7 @@
       "path": "runtime.native.system.security.cryptography.apple/4.3.0",
       "files": [
         ".nupkg.metadata",
+        ".signature.p7s",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/netstandard1.0/_._",
@@ -7287,7 +7287,6 @@
       "path": "runtime.osx.10.10-x64.runtime.native.system.security.cryptography.apple/4.3.0",
       "files": [
         ".nupkg.metadata",
-        ".signature.p7s",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "runtime.osx.10.10-x64.runtime.native.system.security.cryptography.apple.4.3.0.nupkg.sha512",
@@ -9426,7 +9425,6 @@
       "path": "system.reflection.emit/4.3.0",
       "files": [
         ".nupkg.metadata",
-        ".signature.p7s",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/MonoAndroid10/_._",
@@ -9462,7 +9460,6 @@
       "path": "system.reflection.emit.ilgeneration/4.3.0",
       "files": [
         ".nupkg.metadata",
-        ".signature.p7s",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/MonoAndroid10/_._",
@@ -9507,7 +9504,6 @@
       "path": "system.reflection.emit.lightweight/4.3.0",
       "files": [
         ".nupkg.metadata",
-        ".signature.p7s",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/MonoAndroid10/_._",
@@ -10779,6 +10775,7 @@
       "path": "system.security.principal/4.3.0",
       "files": [
         ".nupkg.metadata",
+        ".signature.p7s",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/MonoAndroid10/_._",
@@ -11758,6 +11755,7 @@
       "path": "system.xml.xpath.xdocument/4.3.0",
       "files": [
         ".nupkg.metadata",
+        ".signature.p7s",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/MonoAndroid10/_._",
@@ -11799,23 +11797,39 @@
     ]
   },
   "packageFolders": {
+<<<<<<< HEAD
     "C:\\Users\\luipe\\.nuget\\packages\\": {},
+=======
+    "C:\\Users\\thefr\\.nuget\\packages\\": {},
+>>>>>>> b19ad5e457d654f69fcc605c8c4c5b293bb51cb3
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
+<<<<<<< HEAD
       "projectUniqueName": "C:\\Users\\luipe\\OneDrive\\Documents\\GitHub\\semester-group-assignment-group-3\\Source Code\\CommerceBankWebsite\\CommerceBankWebsite\\CommerceBankWebsite.csproj",
       "projectName": "CommerceBankWebsite",
       "projectPath": "C:\\Users\\luipe\\OneDrive\\Documents\\GitHub\\semester-group-assignment-group-3\\Source Code\\CommerceBankWebsite\\CommerceBankWebsite\\CommerceBankWebsite.csproj",
       "packagesPath": "C:\\Users\\luipe\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\luipe\\OneDrive\\Documents\\GitHub\\semester-group-assignment-group-3\\Source Code\\CommerceBankWebsite\\CommerceBankWebsite\\obj\\",
+=======
+      "projectUniqueName": "C:\\Users\\thefr\\Documents\\GitHub\\semester-group-assignment-group-3\\Source Code\\CommerceBankWebsite\\CommerceBankWebsite\\CommerceBankWebsite.csproj",
+      "projectName": "CommerceBankWebsite",
+      "projectPath": "C:\\Users\\thefr\\Documents\\GitHub\\semester-group-assignment-group-3\\Source Code\\CommerceBankWebsite\\CommerceBankWebsite\\CommerceBankWebsite.csproj",
+      "packagesPath": "C:\\Users\\thefr\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\thefr\\Documents\\GitHub\\semester-group-assignment-group-3\\Source Code\\CommerceBankWebsite\\CommerceBankWebsite\\obj\\",
+>>>>>>> b19ad5e457d654f69fcc605c8c4c5b293bb51cb3
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
+<<<<<<< HEAD
         "C:\\Users\\luipe\\AppData\\Roaming\\NuGet\\NuGet.Config",
+=======
+        "C:\\Users\\thefr\\AppData\\Roaming\\NuGet\\NuGet.Config",
+>>>>>>> b19ad5e457d654f69fcc605c8c4c5b293bb51cb3
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -11863,5 +11877,13 @@
         "warn": true
       }
     }
-  }
+  },
+  "logs": [
+    {
+      "code": "Undefined",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Problem reading the cache file C:\\Users\\thefr\\Documents\\GitHub\\semester-group-assignment-group-3\\Source Code\\CommerceBankWebsite\\CommerceBankWebsite\\obj\\CommerceBankWebsite.csproj.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
+    }
+  ]
 }
