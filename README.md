@@ -1,10 +1,11 @@
 <p align="center"><img src="https://github.com/umkc-cs-451-2019-fall/semester-group-assignment-group-3/blob/master/Documents/Iteration1-Begin/UMKCcommerceBank.png" width="750" height="400"></p>
 
-## **•Team Members:**<br/>
-Parnian Habibi, Daniel Bae, Anh Nguyen, and Luis Usseglio. Please, see our Wiki for more info about iteratons.
+Please, read readme file, and to see our Wiki for more information about iteratons.
 
 [Link to Wiki](https://github.com/umkc-cs-451-2019-fall/semester-group-assignment-group-3/wiki)
 
+## **•Team Members:**<br/>
+Parnian Habibi, Daniel Bae, Anh Nguyen, and Luis Usseglio. 
 ## **•High Level Overview:**<br/>
 A web application that pulls in transaction details (we will provide sample data) and allows the user to set alerts/business rules and receive notifications around them.  The system should also save data to a database so recurring reports can be created.
 
