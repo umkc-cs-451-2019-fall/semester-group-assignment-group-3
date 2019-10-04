@@ -1,28 +1,30 @@
 {
   "format": 1,
   "restore": {
-    "/Users/daniel/Documents/GitHub/semester-group-assignment-group-3/Source Code/CommerceBankWebsite/CommerceBankWebsite/CommerceBankWebsite.csproj": {}
+    "C:\\Users\\luipe\\OneDrive\\Documents\\GitHub\\semester-group-assignment-group-3\\Source Code\\CommerceBankWebsite\\CommerceBankWebsite\\CommerceBankWebsite.csproj": {}
   },
   "projects": {
-    "/Users/daniel/Documents/GitHub/semester-group-assignment-group-3/Source Code/CommerceBankWebsite/CommerceBankWebsite/CommerceBankWebsite.csproj": {
+    "C:\\Users\\luipe\\OneDrive\\Documents\\GitHub\\semester-group-assignment-group-3\\Source Code\\CommerceBankWebsite\\CommerceBankWebsite\\CommerceBankWebsite.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/daniel/Documents/GitHub/semester-group-assignment-group-3/Source Code/CommerceBankWebsite/CommerceBankWebsite/CommerceBankWebsite.csproj",
+        "projectUniqueName": "C:\\Users\\luipe\\OneDrive\\Documents\\GitHub\\semester-group-assignment-group-3\\Source Code\\CommerceBankWebsite\\CommerceBankWebsite\\CommerceBankWebsite.csproj",
         "projectName": "CommerceBankWebsite",
-        "projectPath": "/Users/daniel/Documents/GitHub/semester-group-assignment-group-3/Source Code/CommerceBankWebsite/CommerceBankWebsite/CommerceBankWebsite.csproj",
-        "packagesPath": "/Users/daniel/.nuget/packages/",
-        "outputPath": "/Users/daniel/Documents/GitHub/semester-group-assignment-group-3/Source Code/CommerceBankWebsite/CommerceBankWebsite/obj/",
+        "projectPath": "C:\\Users\\luipe\\OneDrive\\Documents\\GitHub\\semester-group-assignment-group-3\\Source Code\\CommerceBankWebsite\\CommerceBankWebsite\\CommerceBankWebsite.csproj",
+        "packagesPath": "C:\\Users\\luipe\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\luipe\\OneDrive\\Documents\\GitHub\\semester-group-assignment-group-3\\Source Code\\CommerceBankWebsite\\CommerceBankWebsite\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "/Users/daniel/.config/NuGet/NuGet.Config"
+          "C:\\Users\\luipe\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp2.1"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -51,7 +53,6 @@
               "version": "[2.1.2, )"
             },
             "Microsoft.NETCore.App": {
-              "suppressParent": "All",
               "target": "Package",
               "version": "[2.1.0, )",
               "autoReferenced": true
