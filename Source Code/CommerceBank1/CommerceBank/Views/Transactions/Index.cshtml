@@ -1,0 +1,65 @@
+﻿@model IEnumerable<CommerceBank.Models.Transaction>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h2>Transactions</h2>
+
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Account)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.ProcessingDate)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Balance)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.CRorDR)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Amount)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Description1)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Account.AccountID)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.ProcessingDate)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Balance)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.CRorDR)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Amount)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Description1)
+            </td>
+            <td>
+                <a asp-action="Edit" asp-route-id="@item.TransactionID">Edit</a> |
+                <a asp-action="Details" asp-route-id="@item.TransactionID">Details</a> |
+                <a asp-action="Delete" asp-route-id="@item.TransactionID">Delete</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

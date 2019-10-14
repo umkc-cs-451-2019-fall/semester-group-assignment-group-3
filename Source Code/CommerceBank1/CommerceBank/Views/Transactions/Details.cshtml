@@ -1,0 +1,54 @@
+﻿@model CommerceBank.Models.Transaction
+
+@{
+    ViewData["Title"] = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>Transaction</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.Account)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Account.AccountID)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.ProcessingDate)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.ProcessingDate)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.Balance)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Balance)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.CRorDR)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.CRorDR)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.Amount)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Amount)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.Description1)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Description1)
+        </dd>
+    </dl>
+</div>
+<div>
+    <a asp-action="Edit" asp-route-id="@Model.TransactionID">Edit</a> |
+    <a asp-action="Index">Back to List</a>
+</div>

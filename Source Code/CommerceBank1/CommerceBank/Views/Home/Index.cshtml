@@ -1,0 +1,66 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div id="myCarousel" class="carousel slide" data-ride="carousel" data-interval="6000">
+    <ol class="carousel-indicators">
+        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+        <li data-target="#myCarousel" data-slide-to="1"></li>
+    </ol>
+    <div class="carousel-inner" role="listbox">
+        <div class="item active">
+            <center>
+                <img src="~/images/UMKCcommerceBank.png" class="marginauto" width="750" height="470" />
+            </center>
+        </div>
+        <div class="item">
+            <center>
+                <img src="~/images/UMKCcommerceBank1.png" class="marginauto" width="750" height="470" />
+            </center>
+            <div class="carousel-caption" role="option">
+                <p> </p>
+                <p>
+                                                                                            Learn About Repository and Wiki page.
+                    <a class="btn btn-default" href="https://github.com/umkc-cs-451-2019-fall/semester-group-assignment-group-3">
+
+                        Learn More
+                    </a>
+                </p>
+            </div>
+        </div>
+    </div>
+    <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+        <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+    </a>
+    <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+        <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+    </a>
+</div>
+
+<div class="row">
+    <div class="col-md-4">
+        <h2>Customer</h2>
+        <ul>
+            <li>Please, click to register. </li>
+            <li>Click here for:  <a href="https://localhost:44346/Customers/Create">Register here!</a></li>
+            <li>In the customer settings, you will be able to register as a customer. </li>
+            <li>Click here for:  <a href="https://localhost:44346/Customers">Customers settings</a></li>
+        </ul>
+    </div>
+    <div class="col-md-4">
+        <h2>Account</h2>
+        <ul>
+            <li>In the Account settings, you will be able to register for an account once you are a customer  </li>
+            <li>Click here for:  <a href="https://localhost:44346/Accounts">Accounts settings</a></li>
+        </ul>
+    </div>
+    <div class="col-md-4">
+        <h2>Transaction</h2>
+        <ul>
+            <li>In the Transaction settings, you will able to manage to your transactions </li>
+            <li>Click here for:  <a href="https://localhost:44346/Transactions">Transactions settings</a></li>
+        </ul>
+    </div>
+ </div>
