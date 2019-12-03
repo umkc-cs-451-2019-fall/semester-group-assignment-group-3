@@ -1,0 +1,22 @@
+﻿@page
+@model LoginFormWithSession.Pages.IndexModel
+
+<h3>Login Form</h3>
+@Model.Msg
+<form method="post" asp-page="Index">
+    <table>
+        <tr>
+            <td>Username</td>
+            <td><input type="text" asp-for="@Model.Username" /></td>
+        </tr>
+        <tr>
+            <td>Password</td>
+            <td><input type="text" asp-for="@Model.Password" /></td>
+        </tr>
+        <tr>
+            <td>&nbsp;</td>
+            <td><input type="submit" value="login" /></td>
+        </tr>
+
+    </table>
+</form>
