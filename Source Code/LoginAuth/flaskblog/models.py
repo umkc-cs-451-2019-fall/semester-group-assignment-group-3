@@ -29,3 +29,24 @@ class Post(db.Model):
 
     def __repr__(self):
         return f"Post('{self.title}', '{self.date_posted}')"
+
+class Account(db.Model):
+    AccountId = db.Column(db.Integer, primary_key=True)
+    Type = db.Column(db.String(100), nullable=False)
+    date_posted = db.Column(db.DateTime, nullable=False, default=datetime.utcnow)
+    user_id = db.Column(db.Integer, db.ForeignKey('user.id'), nullable=False)
+
+    def __repr__(self):
+        return f"Post('{self.Type}', '{self.date_posted}')"
+
+class Transaction(db.Model):
+    TransactionID = db.Column(db.Integer, primary_key=True)
+    AccountId = db.Column(db.Integer, db.ForeignKey('user.id'), nullable=False)
+    ProcessingDate = db.Column(db.DateTime, nullable=False, default=datetime.utcnow)
+    Balance = db.Column(db.Float, nullable=False)
+    CRorDR = db.Column(db.String(100), nullable=False)
+    Amount = db.Column(db.Float, nullable=False)
+    Description1 = db.Column(db.Text, nullable=False)
+
+    def __repr__(self):
+        return f"Post( '{self.ProcessingDate}','{self.Balance}','{self.CRorDR}','{self.Amount}','{self.Description1}')"

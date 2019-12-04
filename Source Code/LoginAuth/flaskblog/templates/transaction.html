@@ -1,0 +1,67 @@
+{% extends "layout.html" %}
+    <h1>{ current_user.username }</h1>
+{% block content %}
+<h2>Transactions</h2>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                TransactionID
+            </th>
+            <th>
+                AccountId
+            </th>
+            <th>
+                ProcessingDate
+            </th>
+            <th>
+                Balance
+            </th>
+            <th>
+                CRorDR
+            </th>
+            <th>
+                Amount
+            </th>
+            <th>
+                Description
+            </th>
+        </tr>
+    </thead>
+    <tbody>
+    {% for transaction in transactions %}
+        <tr>
+            <td>
+                <a class="article-title" href="#">{{ transaction.TransactionID }}</a>
+            </td>
+            <td>
+                <a class="article-title" href="#">{{ transaction.AccountId }}</a>
+            </td>
+            <td>
+                <a class="article-title" href="#">{{ transaction.ProcessingDate }}</a>
+            </td>
+            <td>
+                <a class="article-title" href="#">{{ transaction.Balance}}</a>
+            </td>
+            <td>
+                <a class="article-title" href="#">{{ transaction.CRorDR }}</a>
+            </td>
+            <td>
+                <a class="article-title" href="#">{{ transaction.Amount }}</a>
+            </td>
+            <td>
+                <a class="article-title" href="#">{{ transaction.Description }}</a>
+            </td>
+        </tr>}
+    {% endfor %}
+    </tbody>
+</table>
+{% endblock content %}
+
+
+
+
+
+
+
+

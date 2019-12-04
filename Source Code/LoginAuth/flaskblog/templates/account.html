@@ -1,4 +1,24 @@
 {% extends "layout.html" %}
+
 {% block content %}
     <h1>{{ current_user.username }}</h1>
+    {% for account in accounts %}
+        <article class="media content-section">
+          <div class="media-body">
+            <div class="article-metadata">
+                <h2><a class="article-title" href="#">{{account.Account_ID}}</a></h2>
+            </div>
+              <a class="mr-2" href="#">{{ account.User }}</a>
+              <small class="text-muted">{{account.date_posted}}</small>
+
+              <h3><a class="article-title" href="#">{{account.Type }}</a></h3>
+          </div>
+        </article>
+    {% endfor %}
+        <div class="border-top pt-3">
+        <small class="text-muted">
+            Need to check latest transactions? <a class="ml-2" href="{{ url_for('transaction') }}">See all transactions</a>
+        </small>
+    </div>
+
 {% endblock content %}

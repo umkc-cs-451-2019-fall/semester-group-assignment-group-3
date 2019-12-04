@@ -6,17 +6,58 @@ from flask_login import login_user, current_user, logout_user, login_required
 
 
 posts = [
-    {
-        'User': 'Luis Usseglio',
-        'Account ID': 'Account 1',
-        'Type': 'Checking',
-        'date_posted': 'November 11, 2019'
-    },
+
     {
         'author': 'Jane Doe',
         'title': 'Blog Post 2',
         'content': 'Second post content',
         'date_posted': 'April 21, 2018'
+    }
+]
+
+accounts = [
+    {
+        'User': 'Luis Usseglio',
+        'Account_ID': 'Account Number: 00126654',
+        'Type': 'Checking',
+        'date_posted': 'Since, November 11, 2019'
+    },
+    {
+        'User': 'Luis Usseglio',
+        'Account_ID': 'Account Number: 002154154',
+        'Type': 'Savings',
+        'date_posted': 'Since, November 12, 2019'
+    }
+
+]
+
+transactions = [
+    {
+        'TransactionID': '1',
+        'AccountId': '00126654',
+        'ProcessingDate': '05/01/19',
+        'Balance': '5,000.00',
+        'CRorDR': '',
+        'Amount': '',
+        'Description': '',
+    },
+    {
+        'TransactionID': '2',
+        'AccountId': '00126654',
+        'ProcessingDate': '05/02/19',
+        'Balance': '4,998.00',
+        'CRorDR': 'DR',
+        'Amount': '$2.00',
+        'Description': 'Starbucks',
+    },
+    {
+        'TransactionID': '3',
+        'AccountId': '00126654',
+        'ProcessingDate': '05/04/19',
+        'Balance': '5,798.00',
+        'CRorDR': 'CR',
+        'Amount': '$800.00',
+        'Description': 'Payroll',
     }
 ]
 
@@ -30,6 +71,10 @@ def home():
 @app.route("/about")
 def about():
     return render_template('about.html', title='About')
+
+@app.route("/contact")
+def contact():
+    return render_template('contact.html', title='Contact')
 
 
 @app.route("/register", methods=['GET', 'POST'])
@@ -72,4 +117,9 @@ def logout():
 @app.route("/account")
 @login_required
 def account():
-    return render_template('account.html', title='Account')
+    return render_template('account.html', title='Account', accounts=accounts)
+
+@app.route("/transaction")
+@login_required
+def transaction():
+    return render_template('transaction.html', title='Transaction', transactions=transactions)
