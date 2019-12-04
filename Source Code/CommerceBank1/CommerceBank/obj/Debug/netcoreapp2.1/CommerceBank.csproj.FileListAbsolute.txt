@@ -94,3 +94,4 @@ C:\Users\thefr\Documents\GitHub\semester-group-assignment-group-3\Source Code\Co
 C:\Users\thefr\Documents\GitHub\semester-group-assignment-group-3\Source Code\CommerceBank1\CommerceBank\obj\Debug\netcoreapp2.1\CommerceBank.dll
 C:\Users\thefr\Documents\GitHub\semester-group-assignment-group-3\Source Code\CommerceBank1\CommerceBank\obj\Debug\netcoreapp2.1\CommerceBank.pdb
 C:\Users\thefr\Documents\GitHub\semester-group-assignment-group-3\Source Code\CommerceBank1\CommerceBank\obj\Debug\netcoreapp2.1\CommerceBank.csproj.CopyComplete
+C:\Users\thefr\Documents\GitHub\semester-group-assignment-group-3\Source Code\CommerceBank1\CommerceBank\obj\Debug\netcoreapp2.1\Razor\Views\Register\Index.g.cshtml.cs
